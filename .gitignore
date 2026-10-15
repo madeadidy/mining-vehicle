@@ -1,0 +1,19 @@
+# Mengabaikan environment dan cache Python
+venv/
+__pycache__/
+.env
+
+# Mengabaikan folder mentah dan dataset yang sangat berat
+dataset/
+cvat_raw/
+frames/
+outputs/
+cvat_auto_labels.zip
+yolov8n.pt
+
+# Mengabaikan video asli yang 500MB (Sangat Penting!)
+videos/mining_01.mp4
+
+# Mengabaikan file instalasi Frontend
+web-dashboard/node_modules/
+web-dashboard/.next/
